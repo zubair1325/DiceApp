@@ -40,7 +40,7 @@ class _MyAppState extends State<MyApp> {
                   onPressed: () {
                     setState(() {
                       left = Random().nextInt(6) + 1;
-                      right = Random().nextInt(6) + 1;
+                     
                     });
                   },
                   child: Image.asset('image/dice$left.png'),
@@ -50,7 +50,7 @@ class _MyAppState extends State<MyApp> {
                 child: TextButton(
                   onPressed: () {
                     setState(() {
-                      left = Random().nextInt(6) + 1;
+                      
                       right = Random().nextInt(6) + 1;
                     });
                   },
